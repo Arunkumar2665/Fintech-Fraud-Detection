@@ -1,0 +1,3 @@
+cluster,customer_count,avg_age,avg_annual_income,avg_tenure_months,avg_transaction_count,avg_total_spend,avg_transaction_amount,avg_international_rate,avg_failed_attempts
+0,637,47.27,39595.83,61.52,6.16,247.09,42.34,0.08,1.3
+1,863,46.41,39046.16,59.64,9.36,680.58,76.24,0.08,2.49

@@ -1,0 +1,32 @@
+{
+  "random_state": 42,
+  "fraud_features": [
+    "amount",
+    "hour",
+    "account_age_days",
+    "distance_from_home_km",
+    "is_international",
+    "failed_attempts_24h",
+    "device_trust_score"
+  ],
+  "cluster_features": [
+    "transaction_count",
+    "total_spend",
+    "average_transaction_amount",
+    "international_transaction_rate",
+    "failed_attempts_total",
+    "age",
+    "annual_income",
+    "tenure_months"
+  ],
+  "log_transformed_cluster_features": [
+    "transaction_count",
+    "total_spend",
+    "average_transaction_amount",
+    "failed_attempts_total",
+    "annual_income"
+  ],
+  "selected_k": 2,
+  "fraud_threshold": 0.5,
+  "data_type": "synthetic"
+}
